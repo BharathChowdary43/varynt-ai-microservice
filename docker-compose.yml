@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  varynt-ai-api:
+    build: .
+    container_name: varynt-ai-service
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist the ChromaDB data outside the container so it isn't lost on restart
+      - ./chroma_data:/app/chroma_data
+    restart: unless-stopped

@@ -1,0 +1,5 @@
+pydantic
+chromadb
+fastapi
+uvicorn
+sentence-transformers
