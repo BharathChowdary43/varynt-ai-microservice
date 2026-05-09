@@ -1,5 +1,14 @@
-pydantic
-chromadb
-fastapi
-uvicorn
-sentence-transformers
+# Web & Validation
+fastapi==0.110.0
+uvicorn==0.29.0
+pydantic==2.6.4
+
+# ML Track: Vector Search
+chromadb==0.4.24
+sentence-transformers==2.6.1
+
+# AI Track: Agentic Orchestration
+langchain==0.1.14
+langchain-core==0.1.40
+langchain-community==0.0.31
+langgraph==0.0.30
