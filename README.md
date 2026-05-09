@@ -1,21 +1,48 @@
-# VARYNT AI Microservice: Multi-Agent Lead Engine
+# VARYNT AI-SaaS Microservice
 
-An enterprise-grade AI pipeline for lead qualification and semantic search using **LangGraph** and **ChromaDB**.
+This repository contains the backend AI orchestration layer developed for the Dream Reflection Media / KeaBuilder technical assessment. 
 
-## 🏗️ Architecture: The Reflexion Loop
-Unlike standard linear chains, this system utilizes a **StateGraph-based Reflexion Loop (Actor-Critic pattern)**:
-1. **Semantic Evaluator:** Acts as a gatekeeper to filter low-quality/spam inputs.
-2. **Memory Retriever:** Performs RAG via ChromaDB to ground responses in historical context.
-3. **Worker Agent:** Drafts personalized responses and classifies leads (HOT/WARM/COLD).
-4. **Validator Agent:** Reviews the draft. If it fails quality checks, it triggers a rewrite loop (capped at 2 retries).
+## 🏗️ Architecture Overview
+To ensure high availability and prevent AI inference tasks from blocking KeaBuilder's core Node.js event loop, this system utilizes a fully decoupled, event-driven microservice architecture. 
 
-## 🚀 Scaling Roadmap (Future Improvements)
-- **Infrastructure:** Currently optimized for local-first inference (Ollama/Llama3) to prioritize privacy and zero API costs.
-- **Production Move:** Ready for migration to **LangSmith** for observability and **Pinecone** for high-scale vector retrieval.
-- **Async Handling:** Designed for future decoupling via **RabbitMQ** or **Redis** for high-concurrency environments.
+**Core Tech Stack:**
+* **Routing & API:** Python, FastAPI
+* **Agentic Orchestration:** Custom Router, Evaluator, and Execution Agents
+* **Vector Memory:** ChromaDB, `sentence-transformers` (`all-MiniLM-L6-v2`)
+* **Queueing & Scaling:** Redis Message Queue, Docker (simulated for deployment)
 
-## 🛠️ Setup
-1. `uv venv --python 3.11`
-2. `uv pip install -r requirements.txt`
-3. Ensure **Ollama** is running `llama3` locally.
-4. `uvicorn app.main:app --reload`
+## ✨ Key Workflows
+
+### 1. Intelligent Lead Classification
+A multi-agent pipeline designed to handle raw CRM inputs:
+* **Evaluator Agent:** Acts as a gatekeeper. Evaluates semantic density to prevent expensive LLM calls on garbage data (e.g., "help me"). Triggers a fallback webhook if clarity is needed.
+* **Execution Agent:** Injects valid inputs into a strict, few-shot prompt to classify intent (HOT, WARM, COLD) and draft personalized, context-aware responses in strict JSON.
+
+### 2. Semantic Similarity Search
+Replaces brittle keyword matching with dense vector retrieval:
+* Generates localized embeddings using `all-MiniLM-L6-v2`.
+* Queries a persistent ChromaDB instance to calculate Cosine Similarity.
+* Returns the highest percentage match for funnel templates or previous inputs.
+
+### 3. Asynchronous Multi-Modal Routing
+Acts as a switchboard for media generation:
+* Routes Text-to-Image requests (Replicate), Video (Runway), and Voice (ElevenLabs).
+* Utilizes asynchronous webhook patterns (HTTP 202 Accepted) to prevent UI latency and freezing during long generation tasks.
+* Supports LoRA `.safetensors` adapter injection for brand/face consistency.
+
+## 🚀 Setup & Installation
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/yourusername/varynt-ai.git](https://github.com/yourusername/varynt-ai.git)
+
+# 2. Navigate into the directory
+cd varynt-ai
+
+# 3. Create a virtual environment and install dependencies
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+
+# 4. Run the FastAPI server locally
+uvicorn main:app --reload
