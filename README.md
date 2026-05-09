@@ -14,6 +14,7 @@ This system is built on the principle of **Modular Realism**. It is designed to 
 
 ### 1. The Multi-Agent Reflexion Loop (Lead Qualification)
 Unlike standard, brittle linear LLM chains, this pipeline utilizes an **Actor-Critic StateGraph** to ensure production-level reliability and hallucination control.
+<img width="5400" height="3002" alt="VARYNT_HLD" src="https://github.com/user-attachments/assets/661f184b-85eb-4370-b5ae-c572dccca10e" />
 
 * **🛡️ Semantic Evaluator (Gatekeeper):** Analyzes the semantic density of incoming requests. It instantly filters out spam or low-effort inputs (e.g., "hi", "just looking"), preventing wasted compute cycles.
 * **🧠 Memory Retriever (RAG):** Queries the vector database for historical "twins" of the current lead to provide contextual grounding.
@@ -59,11 +60,12 @@ This MVP runs locally to maximize runway, but it is architected for immediate cl
 Open a terminal and start the Ollama server with the Llama 3 model:
 ```bash
 ollama run llama3
+```
+*(Keep this terminal running in the background).*
 
-3. Environment Setup
+### 3. Environment Setup
 Clone the repository and set up your virtual environment:
-
-Bash
+```bash
 git clone [https://github.com/BharathChowdary43/varynt-ai-microservice.git](https://github.com/BharathChowdary43/varynt-ai-microservice.git)
 cd varynt-ai-microservice
 
@@ -73,24 +75,33 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 uv pip install -r requirements.txt
+```
 
-
-4. Run the Microservice
+### 4. Run the Microservice
 Start the FastAPI gateway:
-
-Bash
+```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-Navigate to http://localhost:8000/docs to interact with the Swagger UI and test the endpoints.
+```
+Navigate to `http://localhost:8000/docs` to interact with the Swagger UI and test the endpoints.
 
-🐳 Docker Deployment (Microservice Approach)
+---
+
+## 🐳 Docker Deployment (Microservice Approach)
+
 To run the application in an isolated container while utilizing your host machine's Ollama runner for GPU/CPU optimization:
 
-Bash
+```bash
 # Build the image
 docker build -t varynt-ai-service .
 
 # Run the container (Maps host.docker.internal to access local Ollama)
 docker run -p 8000:8000 varynt-ai-service
+```
 
-📜 Logging & Observability
-All agent thoughts, state transitions, and validation critiques are logged locally to varynt_agent_trace.log. In a production environment, this is designed to be easily piped into LangSmith and Datadog.
+---
+
+## 📜 Logging & Observability
+All agent thoughts, state transitions, and validation critiques are logged locally to `varynt_agent_trace.log`. In a production environment, this is designed to be easily piped into **LangSmith** and **Datadog**.
+
+---
+*Architected and developed by [Sri Bharath Pentela](https://github.com/BharathChowdary43) for VARYNT.*
