@@ -30,6 +30,8 @@ Acts as a switchboard for media generation:
 * Utilizes asynchronous webhook patterns (HTTP 202 Accepted) to prevent UI latency and freezing during long generation tasks.
 * Supports LoRA `.safetensors` adapter injection for brand/face consistency.
 
+<img width="5400" height="3002" alt="VARYNT_HLD" src="https://github.com/user-attachments/assets/318fc6e9-b3e4-4ba2-b735-08361b91c105" />
+
 ## 🚀 Setup & Installation
 
 ```bash
