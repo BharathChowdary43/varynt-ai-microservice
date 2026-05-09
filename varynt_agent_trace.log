@@ -1,0 +1,154 @@
+2026-05-09 21:39:59,410 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:39:59,601 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:40:00,895 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:40:47,235 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:40:52,185 - [WARNING] - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-05-09 21:41:14,798 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:41:14,862 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:41:15,156 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:41:30,264 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:41:41,462 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:41:41,529 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:41:41,820 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:41:56,194 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:42:20,663 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:42:20,729 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:42:20,990 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:42:36,441 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:44:22,442 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:44:22,510 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:44:23,113 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:44:36,757 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:44:41,314 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:44:41,317 - [INFO] - Database empty. Seeding initial KeaBuilder lead data...
+2026-05-09 21:44:41,532 - [ERROR] - Failed to send telemetry event CollectionAddEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:44:41,532 - [INFO] - Successfully seeded 9 historical leads into vector memory.
+2026-05-09 21:44:41,534 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 21:47:11,428 - [ERROR] - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:51:20,013 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 21:51:20,167 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 21:51:20,167 - [ERROR] - Lead processing failed: 
+2026-05-09 21:54:24,896 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:54:24,958 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:54:25,294 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:54:28,577 - [INFO] - Initializing VectorSearchService...
+2026-05-09 21:54:28,645 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 21:54:28,933 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:54:41,480 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:54:44,892 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 21:54:46,378 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:54:46,398 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 21:54:49,368 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 21:54:49,389 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 21:54:49,426 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 21:54:49,500 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 22:08:12,749 - [INFO] - Initializing VectorSearchService...
+2026-05-09 22:08:12,817 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 22:08:13,104 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:08:29,307 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 22:08:34,026 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:08:34,054 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 22:08:34,093 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 22:08:34,170 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 22:11:44,924 - [INFO] - Initializing VectorSearchService...
+2026-05-09 22:11:44,990 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 22:11:45,293 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:11:59,447 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 22:12:04,214 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:12:04,248 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 22:12:04,284 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 22:12:04,357 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 22:12:15,832 - [INFO] - Evaluator Decision: Valid=True | Reason: Potential customer with a clear use case and budget, indicating a genuine interest in KeaBuilder's services.
+2026-05-09 22:12:15,837 - [INFO] - --- Completed Graph Node: [EVALUATOR] ---
+2026-05-09 22:12:15,852 - [INFO] - Executing: Memory Retriever Agent
+2026-05-09 22:12:16,301 - [ERROR] - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:12:16,301 - [INFO] - Retrieved 3 historical leads for context.
+2026-05-09 22:12:16,308 - [INFO] - --- Completed Graph Node: [RETRIEVER] ---
+2026-05-09 22:12:16,335 - [INFO] - Executing: Worker Agent (Attempt 1)
+2026-05-09 22:13:08,765 - [INFO] - Initializing VectorSearchService...
+2026-05-09 22:13:08,831 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 22:13:09,077 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:13:23,093 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 22:13:27,545 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:13:27,571 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 22:16:19,898 - [INFO] - Initializing VectorSearchService...
+2026-05-09 22:16:19,963 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 22:16:20,247 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:16:34,603 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 22:16:39,039 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:16:39,062 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 22:16:39,090 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 22:16:39,162 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 22:16:50,498 - [INFO] - Evaluator Decision: Valid=True | Reason: The input includes specific requirements and a clear budget, indicating a genuine interest in the KeaBuilder CRM service.
+2026-05-09 22:16:50,505 - [INFO] - --- Completed Graph Node: [EVALUATOR] ---
+2026-05-09 22:16:50,521 - [INFO] - Executing: Memory Retriever Agent
+2026-05-09 22:16:50,620 - [ERROR] - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:16:50,620 - [INFO] - Retrieved 3 historical leads for context.
+2026-05-09 22:16:50,628 - [INFO] - --- Completed Graph Node: [RETRIEVER] ---
+2026-05-09 22:16:50,650 - [INFO] - Executing: Worker Agent (Attempt 1)
+2026-05-09 22:17:18,622 - [INFO] - Worker Classification: HOT
+2026-05-09 22:17:18,625 - [INFO] - --- Completed Graph Node: [WORKER] ---
+2026-05-09 22:17:18,648 - [INFO] - Executing: Validator Agent (Quality Assurance)
+2026-05-09 22:17:24,102 - [INFO] - Validator APPROVED the draft.
+2026-05-09 22:17:24,104 - [INFO] - --- Completed Graph Node: [VALIDATOR] ---
+2026-05-09 22:17:24,111 - [INFO] - --- Completed Graph Node: [__END__] ---
+2026-05-09 22:17:24,111 - [INFO] - ========== PIPELINE EXECUTION FINISHED ==========
+2026-05-09 22:17:48,685 - [INFO] - Initializing VectorSearchService...
+2026-05-09 22:17:48,733 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 22:17:48,991 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:18:03,513 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 22:18:07,577 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:18:07,603 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 22:18:51,002 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 22:18:51,073 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 22:19:02,320 - [INFO] - Evaluator Decision: Valid=True | Reason: The input includes specific requirements and a clear budget, indicating a genuine interest in the KeaBuilder CRM's services.
+2026-05-09 22:19:02,321 - [INFO] - --- Completed Graph Node: [EVALUATOR] ---
+2026-05-09 22:19:02,340 - [INFO] - Executing: Memory Retriever Agent
+2026-05-09 22:19:02,509 - [ERROR] - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 22:19:02,509 - [INFO] - Retrieved 3 historical leads for context.
+2026-05-09 22:19:02,519 - [INFO] - --- Completed Graph Node: [RETRIEVER] ---
+2026-05-09 22:19:02,540 - [INFO] - Executing: Worker Agent (Attempt 1)
+2026-05-09 22:19:26,487 - [INFO] - Worker Classification: HOT
+2026-05-09 22:19:26,491 - [INFO] - --- Completed Graph Node: [WORKER] ---
+2026-05-09 22:19:26,516 - [INFO] - Executing: Validator Agent (Quality Assurance)
+2026-05-09 22:19:47,391 - [ERROR] - Validator REJECTED the draft. Feedback: The email does not directly address the user's specific goal of creating a funnel for their gym within the budget of $5000. It would be better to start with a clear understanding of what the user wants to achieve and then provide more details about how you can help them. Additionally, it would be good to rephrase the tone to make it more professional.
+2026-05-09 22:19:47,394 - [INFO] - --- Completed Graph Node: [VALIDATOR] ---
+2026-05-09 22:19:47,413 - [INFO] - Executing: Worker Agent (Attempt 2)
+2026-05-09 22:19:47,413 - [WARNING] - Worker applying feedback: The email does not directly address the user's specific goal of creating a funnel for their gym within the budget of $5000. It would be better to start with a clear understanding of what the user wants to achieve and then provide more details about how you can help them. Additionally, it would be good to rephrase the tone to make it more professional.
+2026-05-09 22:20:17,023 - [INFO] - Worker Classification: HOT
+2026-05-09 22:20:17,029 - [INFO] - --- Completed Graph Node: [WORKER] ---
+2026-05-09 22:20:17,042 - [INFO] - Executing: Validator Agent (Quality Assurance)
+2026-05-09 22:20:37,513 - [ERROR] - Validator REJECTED the draft. Feedback: The email does not directly address the user's specific goal of creating a sales funnel, but rather mentions it as an aside. Also, the tone is professional, and there is no pricing hallucination. To approve this email, please rewrite it to focus on the user's goal and provide more details about how your service can help achieve that goal.
+2026-05-09 22:20:37,515 - [INFO] - --- Completed Graph Node: [VALIDATOR] ---
+2026-05-09 22:20:37,521 - [WARNING] - Max retries reached. Forcing loop exit.
+2026-05-09 22:20:37,522 - [INFO] - --- Completed Graph Node: [__END__] ---
+2026-05-09 22:20:37,522 - [INFO] - ========== PIPELINE EXECUTION FINISHED ==========
+2026-05-09 23:03:25,439 - [INFO] - Initializing VectorSearchService...
+2026-05-09 23:03:25,619 - [INFO] - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-05-09 23:03:26,225 - [ERROR] - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 23:04:00,668 - [INFO] - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-05-09 23:04:06,366 - [ERROR] - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 23:04:06,406 - [INFO] - Initializing ReflexionLeadPipeline (Multi-Agent Engine)...
+2026-05-09 23:04:06,477 - [INFO] - ========== NEW LEAD INGESTED INTO PIPELINE ==========
+2026-05-09 23:04:06,563 - [INFO] - Executing: Semantic Evaluator Agent
+2026-05-09 23:04:30,855 - [INFO] - Evaluator Decision: Valid=True | Reason: The input includes specific requirements and a clear budget, indicating a genuine interest in the service.
+2026-05-09 23:04:30,858 - [INFO] - --- Completed Graph Node: [EVALUATOR] ---
+2026-05-09 23:04:30,882 - [INFO] - Executing: Memory Retriever Agent
+2026-05-09 23:04:31,337 - [ERROR] - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-05-09 23:04:31,337 - [INFO] - Retrieved 3 historical leads for context.
+2026-05-09 23:04:31,341 - [INFO] - --- Completed Graph Node: [RETRIEVER] ---
+2026-05-09 23:04:31,367 - [INFO] - Executing: Worker Agent (Attempt 1)
+2026-05-09 23:04:53,596 - [INFO] - Worker Classification: HOT
+2026-05-09 23:04:53,601 - [INFO] - --- Completed Graph Node: [WORKER] ---
+2026-05-09 23:04:53,620 - [INFO] - Executing: Validator Agent (Quality Assurance)
+2026-05-09 23:05:19,517 - [ERROR] - Validator REJECTED the draft. Feedback: The drafted email does not directly address the user's specific goal, which is to create a funnel for their gym with a budget of $5000. The email should provide more information on how KeaBuilder can help achieve this goal and what specific services or solutions they offer within that budget. Additionally, it would be beneficial to include some details about the benefits of using KeaBuilder's services and how they can help the user achieve their goals.
+2026-05-09 23:05:19,521 - [INFO] - --- Completed Graph Node: [VALIDATOR] ---
+2026-05-09 23:05:19,542 - [INFO] - Executing: Worker Agent (Attempt 2)
+2026-05-09 23:05:19,542 - [WARNING] - Worker applying feedback: The drafted email does not directly address the user's specific goal, which is to create a funnel for their gym with a budget of $5000. The email should provide more information on how KeaBuilder can help achieve this goal and what specific services or solutions they offer within that budget. Additionally, it would be beneficial to include some details about the benefits of using KeaBuilder's services and how they can help the user achieve their goals.
+2026-05-09 23:05:52,449 - [INFO] - Worker Classification: HOT
+2026-05-09 23:05:52,449 - [INFO] - --- Completed Graph Node: [WORKER] ---
+2026-05-09 23:05:52,469 - [INFO] - Executing: Validator Agent (Quality Assurance)
+2026-05-09 23:05:58,514 - [INFO] - Validator APPROVED the draft.
+2026-05-09 23:05:58,519 - [INFO] - --- Completed Graph Node: [VALIDATOR] ---
+2026-05-09 23:05:58,524 - [INFO] - --- Completed Graph Node: [__END__] ---
+2026-05-09 23:05:58,524 - [INFO] - ========== PIPELINE EXECUTION FINISHED ==========
